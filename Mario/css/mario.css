@@ -1,0 +1,41 @@
+/* Font en background kleur */
+
+* { font-family: :Arial; }
+body {background-color:rgb(250,240,230);}
+/* Style Class definition */
+	.koptekst { 
+	
+		text-decoration:underline;
+		color:red;
+		}
+
+/* Font type Bold */
+		p.thick {
+			font-weight:bold;
+		}
+
+/* Table border */
+		table.one {
+			border-style: solid;
+			border-color: #ff0000;
+		}
+/* pseudo-class */
+
+	/*Normal Link */
+		a:link {
+			color:red;
+		}
+	/* visited link */
+		a:visited:{
+			color:red;
+		}
+		
+	/* Mouse over Link */
+		a:hover {
+			color:green;
+		}
+
+/* Tekstdikte regels */
+		li.thick {
+		font-weight:bold;
+		}
