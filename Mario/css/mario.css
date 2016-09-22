@@ -8,34 +8,31 @@ body {background-color:rgb(250,240,230);}
 		text-decoration:underline;
 		color:red;
 		}
+#container {
+	width: 100%;
+}
 
-/* Font type Bold */
-		p.thick {
-			font-weight:bold;
-		}
+header {
+	width: 100%;
+}
 
-/* Table border */
-		table.one {
-			border-style: solid;
-			border-color: #ff0000;
-		}
-/* pseudo-class */
+menu {
+	width: 20%;
+	min-width: 150px;
+	float: left;
+}
 
-	/*Normal Link */
-		a:link {
-			color:red;
-		}
-	/* visited link */
-		a:visited:{
-			color:red;
-		}
-		
-	/* Mouse over Link */
-		a:hover {
-			color:green;
-		}
+content {
+	width: 75%;
+	float: left;
+}
 
-/* Tekstdikte regels */
-		li.thick {
-		font-weight:bold;
-		}
+footer {
+	clear: both;
+	width 100$;
+}
+
+#copyright {
+	float: right;
+	padding-right: 50px;
+}

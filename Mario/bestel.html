@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./css/mario.css">
+		<link rel="stylesheet" type="text/css" href="./css/menu.css">
+	</head>
+<body>
+
+<ul id="ulmenu">
+			<li>
+			<a class="amenu" href="index.html">Home</a>
+			</li>
+			<li>
+			<a class="amenu" href="bestel.html"> Bestellen</a>
+			</li>
+			<li>
+			<a class="amenu" href="alv.html">AV</a>
+			</li>
+		</ul>
+	<h1> Bestelformulier </h1>
+		<form action="bestel.php" method="get">
+			<table>
+				<tr>
+					<td>
+						Naam<br>
+					</td>
+					<td>
+						<input name="Naam" type="text" size="40"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Telefoonnummer<br>
+					</td>
+					<td>
+						<input name="Telefoonnummer" type="tel" size="20" pattern="[0-9 .-]*" />
+					</td>
+						
+				</tr>
+				<tr>
+					<th>Pizza</th><th>Prijs</th><th>Aantal</th>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="pizza.thml#Margarita"> Margarita </a>
+					</td>
+					<td>
+						&euro; 5,00
+					</td>
+					<td>
+						<input name="aantalmargarita" type="number" maxlength="2" required="" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="pizza.html#hawaii"> Hawaii</a>
+					</td>
+					<td>
+						&euro; 10.00
+					</td>
+					<td>
+						<input type="text" name="aantalhawaii" maxlength="2" required="" />	
+					</td>
+				</tr>	
+			</table>
+			<input type="submit" value="Bestellen" />
+		</form>
+
+	</body>	
+</html>
